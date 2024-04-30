@@ -12,7 +12,7 @@ class OutlineButtonWidget extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        border: Border.all(width: 1),
+        border: Border.all(width: 2),
         borderRadius: BorderRadius.circular(
           AppContantes.borderRadius,
         ),
