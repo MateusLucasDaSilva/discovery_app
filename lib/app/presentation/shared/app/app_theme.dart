@@ -19,7 +19,7 @@ class AppTheme {
           headlineSmall: textStyle,
         ),
         colorScheme: ColorScheme.fromSeed(
-          seedColor: AppColors.white,
+          seedColor: AppColors.black,
         ),
         useMaterial3: true,
       );

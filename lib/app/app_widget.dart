@@ -1,7 +1,6 @@
+import 'package:discovery_app/app/presentation/shared/app/app_routes.dart';
 import 'package:discovery_app/app/presentation/shared/app/app_theme.dart';
 import 'package:flutter/material.dart';
-
-import 'presentation/pages/home/home_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -12,7 +11,8 @@ class AppWidget extends StatelessWidget {
       title: 'Flutter Demo',
       theme: AppTheme.theme,
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      routes: AppRoutes.routes,
+      initialRoute: AppNamedRoutes.onboard.route,
     );
   }
 }
